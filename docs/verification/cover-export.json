@@ -1,0 +1,42 @@
+[
+  {
+    "ratio": "4:3",
+    "size": [
+      1448,
+      1086
+    ],
+    "original_pixels_unchanged": true
+  },
+  {
+    "ratio": "3:4",
+    "size": [
+      1086,
+      1448
+    ],
+    "original_pixels_unchanged": true
+  },
+  {
+    "ratio": "16:9",
+    "size": [
+      1680,
+      945
+    ],
+    "original_pixels_unchanged": true
+  },
+  {
+    "ratio": "9:16",
+    "size": [
+      945,
+      1680
+    ],
+    "original_pixels_unchanged": true
+  },
+  {
+    "ratio": "1:1",
+    "size": [
+      1254,
+      1254
+    ],
+    "original_pixels_unchanged": true
+  }
+]

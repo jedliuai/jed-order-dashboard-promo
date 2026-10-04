@@ -1,0 +1,32 @@
+{
+  "music_only_file_sha256": "BE226EDDCDB0A6C90CDA41921BB9FA60C06A8B146FFCC98D4138B3860C7EB6C4",
+  "video_packet_hash_original": "SHA256=916d90d651ad9c53532162035ba9b303835cab7657882d7cbff6fc35c26737ca",
+  "video_packet_hash_narrated": "SHA256=916d90d651ad9c53532162035ba9b303835cab7657882d7cbff6fc35c26737ca",
+  "video_bytes_identical": true,
+  "full_decode_errors": 0,
+  "video_frames": 1800,
+  "video_duration": 60,
+  "container_duration": 60,
+  "aac_lufs": -16.01,
+  "aac_true_peak_db": -4.48,
+  "aac_lra": 2.6,
+  "click_voice_gaps": {
+    "priority-click": {
+      "frame": 618,
+      "seconds": 20.6,
+      "speech_free_window_ms": 150
+    },
+    "export-click": {
+      "frame": 1463,
+      "seconds": 48.766666666666666,
+      "speech_free_window_ms": 150
+    }
+  },
+  "final_voice_end": 58.19858333333333,
+  "alignment_metadata_used": false,
+  "max_voice_tempo": null,
+  "final_file_sha256": "4F93DBF7E05C1F1EAA2BA75D7C43F88F937B0D049C3FCBE82ADFE830BE664229",
+  "source": "deliverables/promo-60s-music-only.mp4",
+  "target": "deliverables/promo-60s-narrated.mp4",
+  "narration": "deliverables/narration.wav"
+}

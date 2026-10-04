@@ -1,0 +1,37 @@
+name: Verify final project
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - uses: actions/setup-node@v7.0.0
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: edit/presentation/package-lock.json
+      - name: Install presentation dependencies
+        working-directory: edit/presentation
+        run: npm ci
+      - name: Typecheck final composition
+        working-directory: edit/presentation
+        run: npm run check
+      - uses: actions/setup-python@v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Install audio verification dependencies
+        run: |
+          python -m pip install -r requirements.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y ffmpeg
+      - name: Check final assets, ratios, links and checksums
+        run: python tools/verify_package.py
+      - name: Decode both final videos and compare the unchanged picture stream
+        run: python edit/narration/verify_narrated_video.py

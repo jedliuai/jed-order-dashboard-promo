@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 查看个人订单驾驶舱产品
+    url: https://github.com/jedliuai/trade-order-dashboard-demo
+    about: 业务系统功能与产品源代码在这里。
+  - name: 讨论宣传片制作
+    url: https://github.com/jedliuai/jed-order-dashboard-promo/discussions
+    about: 分享作品、想法和制作经验。

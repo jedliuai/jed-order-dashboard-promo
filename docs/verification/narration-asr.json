@@ -1,0 +1,65 @@
+{
+  "model": "SenseVoiceSmall (local/offline)",
+  "results": [
+    {
+      "file": "01-intro-aligned.wav",
+      "recognized": "外贸订单驾驶舱。"
+    },
+    {
+      "file": "02-pain-aligned.wav",
+      "recognized": "反复填表复制，难看清全局。"
+    },
+    {
+      "file": "03-flow-aligned.wav",
+      "recognized": "合同登记一次，从客户到利润关键记录持续关联。"
+    },
+    {
+      "file": "04-overview-aligned.wav",
+      "recognized": "阅读到财年，经营全景同频看清。"
+    },
+    {
+      "file": "05-priorities-a-aligned.wav",
+      "recognized": "今天重点。"
+    },
+    {
+      "file": "05-priorities-b-aligned.wav",
+      "recognized": "一眼看清。"
+    },
+    {
+      "file": "06-order-aligned.wav",
+      "recognized": "一笔订单从合同到生产执行，再到分批发货、回款结清，每一步都有记录。"
+    },
+    {
+      "file": "07-value-aligned.wav",
+      "recognized": "回款予以确认利润一起看，重点经营谁心里更有数。"
+    },
+    {
+      "file": "08-perspectives-aligned.wav",
+      "recognized": "客户产品年月多为看趋势。"
+    },
+    {
+      "file": "09-concentration-aligned.wav",
+      "recognized": "谁贡献更多，业务依赖谁，客户和产品一起看。😊"
+    },
+    {
+      "file": "10-balance-aligned.wav",
+      "recognized": "我方还欠多少货，客户还欠多少款，两边都看清。😊"
+    },
+    {
+      "file": "11-export-a-aligned.wav",
+      "recognized": "经音报表。"
+    },
+    {
+      "file": "11-export-b-aligned.wav",
+      "recognized": "一键导出。"
+    },
+    {
+      "file": "12-export-value-aligned.wav",
+      "recognized": "公司定期要的各类报表，把做表的时间留给业务。"
+    },
+    {
+      "file": "13-outro-aligned.wav",
+      "recognized": "让一线业务也有全局视野。"
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f7f3eb">
+  <meta name="description" content="个人订单驾驶舱：60 秒 AI 宣传片、女声讲解、递进电子配乐与五比例封面。项目作者 Jed杰德哥，公开完整制作工程。">
+  <meta name="author" content="Jed杰德哥">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="广告公司要失业了？AI 一次直出宣传片 · 个人订单驾驶舱">
+  <meta property="og:description" content="观看最终成片，探索个人订单驾驶舱，下载封面与声音，查看开源制作工程。">
+  <meta property="og:image" content="https://jedliuai.github.io/jed-order-dashboard-promo/deliverables/covers/cover-16x9.png">
+  <meta property="og:url" content="https://jedliuai.github.io/jed-order-dashboard-promo/">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://jedliuai.github.io/jed-order-dashboard-promo/">
+  <link rel="icon" href="edit/presentation/public/assets/brand.svg" type="image/svg+xml">
+  <title>个人订单驾驶舱 · AI 宣传片 | Jed杰德哥</title>
+  <style>
+    :root{--paper:#f7f3eb;--ink:#252722;--muted:#6f7169;--blue:#2253d9;--orange:#e66543;--green:#1a785b;--line:#deddd5}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:100px}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.7 "Microsoft YaHei","PingFang SC",system-ui,sans-serif}a{color:var(--blue);text-decoration:none}a:hover{text-decoration:underline}img{max-width:100%;height:auto;display:block}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,button:focus-visible{outline:3px solid var(--orange);outline-offset:5px}header{border-bottom:1px solid var(--line);background:rgba(247,243,235,.96)}.nav,.wrap{max-width:1180px;margin:auto;padding:0 32px}.nav{min-height:80px;display:flex;align-items:center;justify-content:space-between;gap:20px}.brand{font-weight:900;color:var(--ink);letter-spacing:-.02em}.brand span{color:var(--blue)}.navlinks{display:flex;gap:24px;align-items:center;font-size:14px}.navlinks>a{color:var(--ink)}.button{display:inline-flex;align-items:center;justify-content:center;padding:13px 23px;border-radius:8px;border:1px solid var(--ink);font-weight:700;line-height:1.4;gap:8px;transition:transform .18s}.button:hover{transform:translateY(-2px);text-decoration:none}.button.primary{background:var(--blue);border-color:var(--blue);color:white}.button.ink{background:var(--ink);color:white}.button.outline{color:var(--ink);background:white}.navlinks .productlink{color:var(--blue);font-weight:800}.hero{padding:60px 0 42px}.eyebrow{font-size:12px;letter-spacing:.17em;text-transform:uppercase;color:var(--blue);font-weight:800}.herohead{display:grid;grid-template-columns:1fr auto;gap:30px;align-items:end;margin:14px 0 32px}h1{font-size:clamp(36px,5.2vw,66px);line-height:1.18;letter-spacing:-.045em;margin:0;font-weight:900}h1 strong{color:var(--blue);font-weight:900}h1 .accent{color:var(--orange)}.signature{font-size:14px;color:var(--muted);text-align:right;padding-bottom:5px}.coverhero{border:1px solid var(--line);border-radius:12px;overflow:hidden;box-shadow:0 25px 60px #2927180d}.heroactions{display:flex;flex-wrap:wrap;gap:12px;margin:24px 0 0}.product{margin:10px 0 64px;padding:34px;background:var(--blue);color:white;border-radius:12px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center}.product .eyebrow{color:#bfcfff}.product h2{font-size:32px;line-height:1.3;margin:8px 0}.product p{margin:0;color:#e0e7ff;max-width:760px}.product .button{border:0;background:white;color:var(--blue)}section{margin:0 0 66px}.sectionhead{display:flex;align-items:baseline;justify-content:space-between;gap:24px;margin-bottom:22px}.sectionhead h2{font-size:31px;line-height:1.3;letter-spacing:-.04em;margin:0}.sectionhead p{color:var(--muted);font-size:14px;margin:0}.player{background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px;box-shadow:0 14px 40px #29271808}video{display:block;width:100%;aspect-ratio:16/9;background:#eeeae2;border-radius:5px}.tabs{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 16px}.tabs button{font:inherit;font-weight:700;background:transparent;color:var(--muted);border:1px solid var(--line);border-radius:7px;padding:10px 18px;cursor:pointer}.tabs button[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:white}.underplayer{display:flex;justify-content:space-between;align-items:center;gap:16px;margin:15px 3px 3px;font-size:14px;color:var(--muted)}.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:24px}.stat{border:1px solid var(--line);border-radius:9px;padding:22px;background:#ffffff65}.stat b{display:block;color:var(--blue);font-size:28px;font-weight:900;line-height:1.3}.stat span{font-size:13px;color:var(--muted)}.audio-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.audio-card{background:white;border:1px solid var(--line);border-radius:10px;padding:23px}.audio-card h3{font-size:18px;margin:0 0 8px}.audio-card p{font-size:13px;color:var(--muted);margin:0 0 19px;min-height:44px}audio{max-width:100%;width:100%;height:44px}.audio-card>a{display:inline-block;font-size:13px;margin-top:13px}.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.covercard{margin:0;background:white;border:1px solid var(--line);border-radius:10px;overflow:hidden}.coverframe{height:300px;background:#eeece6;padding:17px;display:flex;align-items:center;justify-content:center}.coverframe img{max-width:100%;max-height:100%;width:auto;height:auto;object-fit:contain;box-shadow:0 5px 20px #25272218}.covercard figcaption{display:flex;justify-content:space-between;align-items:center;padding:17px;font-size:13px}.covercard b{font-size:18px}.detailgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.detail{padding:27px;border-top:3px solid var(--blue);background:#fff;border-radius:0 0 10px 10px}.detail:nth-child(2){border-top-color:var(--orange)}.detail:nth-child(3){border-top-color:var(--green)}.detail h3{margin:0 0 12px;font-size:20px}.detail p{margin:0;color:var(--muted);font-size:14px}.detail a{display:inline-block;margin-top:20px;font-weight:700;font-size:14px}.note{font-size:13px;color:var(--muted);margin-top:20px}.finalcta{border-top:1px solid var(--line);padding:44px 0;text-align:center}.finalcta h2{font-size:32px;margin:0 0 10px}.finalcta p{color:var(--muted);margin:0 0 24px}footer{padding:24px 0 36px;color:var(--muted);font-size:12px;border-top:1px solid var(--line)}.footerinner{display:flex;gap:20px;justify-content:space-between}.footerinner a{color:var(--muted)}
+    @media(max-width:800px){.nav,.wrap{padding:0 20px}.nav{min-height:68px}.navlinks{gap:14px}.navlinks .optional{display:none}.hero{padding-top:38px}.herohead{grid-template-columns:1fr;gap:16px}.signature{text-align:left}.product{grid-template-columns:1fr;padding:26px;margin-bottom:48px}.product .button{justify-self:start}.sectionhead{display:block}.sectionhead p{margin-top:8px}.audio-grid,.detailgrid{grid-template-columns:1fr}.audio-card p{min-height:0}.gallery{grid-template-columns:repeat(2,1fr)}.coverframe{height:280px}.stats{grid-template-columns:repeat(2,1fr)}section{margin-bottom:48px}.underplayer{flex-wrap:wrap}.footerinner{display:block}.footerinner span{display:block;margin-bottom:8px}}
+    @media(max-width:480px){.navlinks .optional2{display:none}.heroactions .button{flex:1;padding:12px 14px;font-size:14px}.gallery{grid-template-columns:1fr}.coverframe{height:350px}.product h2{font-size:27px}.sectionhead h2{font-size:27px}.stat{padding:18px}.stat b{font-size:24px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button{transition:none}.button:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <header><nav class="nav" aria-label="主导航">
+    <a class="brand" href="#">Jed<span>·</span> 创作现场</a>
+    <div class="navlinks">
+      <a class="optional" href="#watch">看成片</a><a class="optional optional2" href="#covers">封面</a>
+      <a class="productlink" href="https://github.com/jedliuai/trade-order-dashboard-demo">个人订单驾驶舱 ↗</a>
+    </div>
+  </nav></header>
+  <main class="wrap">
+    <div class="hero">
+      <div class="eyebrow">OPEN CREATIVE PROJECT / 01</div>
+      <div class="herohead">
+        <h1>广告公司要<span class="accent">失业了？</span><br><strong>AI 一次直出宣传片</strong></h1>
+        <div class="signature">个人订单驾驶舱<br>项目作者：<b>Jed杰德哥</b></div>
+      </div>
+      <a class="coverhero" style="display:block" href="#watch"><img src="deliverables/covers/cover-16x9.png" alt="个人订单驾驶舱 AI 宣传片封面，作者 Jed杰德哥" width="1680" height="945" fetchpriority="high"></a>
+      <div class="heroactions"><a class="button primary" href="#watch">▶ 观看 60 秒成片</a><a class="button outline" href="https://github.com/jedliuai/jed-order-dashboard-promo">查看开源工程 ↗</a></div>
+    </div>
+    <aside class="product" aria-label="个人订单驾驶舱产品入口">
+      <div><div class="eyebrow">MEET THE PRODUCT</div><h2>个人订单驾驶舱</h2><p>客户、合同、产品、发货、收款与利润，沿同一笔业务持续关联。从微观细节，看懂经营全局。</p></div>
+      <a class="button" href="https://github.com/jedliuai/trade-order-dashboard-demo">探索产品项目 →</a>
+    </aside>
+    <section id="watch" aria-labelledby="watch-title">
+      <div class="sectionhead"><h2 id="watch-title">60 秒，看见业务全局。</h2><p>两种声音版本 · 相同画面 · 1080p</p></div>
+      <div class="tabs" role="group" aria-label="选择视频声音版本"><button type="button" data-version="narrated" aria-pressed="true">女声讲解版</button><button type="button" data-version="music-only" aria-pressed="false">音乐与音效版</button></div>
+      <div class="player">
+        <video id="film" controls playsinline preload="metadata" poster="docs/images/video-poster.jpg" aria-label="个人订单驾驶舱宣传片"><source src="deliverables/promo-60s-narrated.mp4" type="video/mp4"><track id="captions" kind="subtitles" src="deliverables/subtitles-zh.vtt" srclang="zh" label="中文讲解字幕">您的浏览器不支持视频，请使用下方下载入口。</video>
+        <div class="underplayer"><span id="version-label">自然女声讲解 · 保留递进配乐与卡点音效</span><a id="video-download" href="deliverables/promo-60s-narrated.mp4" download>下载当前 MP4 ↓</a></div>
+      </div>
+      <div class="stats"><div class="stat"><b>60 秒</b><span>完整叙事</span></div><div class="stat"><b>13 场景</b><span>从痛点到导出</span></div><div class="stat"><b>8 节点</b><span>整条业务链逐个点亮</span></div><div class="stat"><b>120 BPM</b><span>渐进电子律动</span></div></div>
+      <p class="note">产品截图使用虚构演示数据。封面标题是作者确认的传播文案；实际成片经过多轮协作和调整。</p>
+    </section>
+    <section id="audio" aria-labelledby="audio-title">
+      <div class="sectionhead"><h2 id="audio-title">让声音，把故事往前推。</h2><p>独立试听 · 原始音轨下载</p></div>
+      <div class="audio-grid">
+        <article class="audio-card"><h3>清晰自然的女声</h3><p>本地模型合成，跟随画面讲清产品价值。</p><audio controls preload="none" src="deliverables/narration.wav" aria-label="女声讲解独立音轨"></audio><a href="deliverables/narration.wav" download>下载讲解 WAV ↓</a></article>
+        <article class="audio-card"><h3>逐层加入的电子律动</h3><p>和弦、鼓、贝斯与高音旋律，向品牌落点推进。</p><audio controls preload="none" src="edit/presentation/public/assets/music-v4.wav" aria-label="渐进电子配乐"></audio><a href="edit/presentation/public/assets/music-v4.wav" download>下载配乐 WAV ↓</a></article>
+        <article class="audio-card"><h3>八颗递升的清脆短音</h3><p>对应业务链依次点亮，与画面节拍同步。</p><audio controls preload="none" src="edit/presentation/public/assets/flow-chimes-v4.wav" aria-label="数据链点亮音效总线"></audio><a href="deliverables/flow-chimes-preview.mp4">观看卡点片段 →</a></article>
+      </div>
+      <p class="note"><a href="deliverables/soundtrack-narrated.wav" download>下载完整讲解混音</a> · <a href="https://github.com/jedliuai/jed-order-dashboard-promo/blob/main/docs/narration-script.md">阅读逐场景讲解稿</a> · <a href="https://github.com/jedliuai/jed-order-dashboard-promo/releases/latest/download/audio-and-scripts.zip">下载音频与脚本包</a></p>
+    </section>
+    <section id="covers" aria-labelledby="covers-title">
+      <div class="sectionhead"><h2 id="covers-title">一套视觉，五种舞台。</h2><p><a href="https://github.com/jedliuai/jed-order-dashboard-promo/releases/latest/download/social-covers.zip">下载全部封面 ZIP ↓</a></p></div>
+      <div class="gallery">
+        <figure class="covercard"><a class="coverframe" href="deliverables/covers/cover-4x3.png"><img loading="lazy" src="deliverables/covers/cover-4x3.png" alt="4比3 横版封面" width="1448" height="1086"></a><figcaption><span><b>4:3</b> · 1448 × 1086</span><a href="deliverables/covers/cover-4x3.png" download>下载 ↓</a></figcaption></figure>
+        <figure class="covercard"><a class="coverframe" href="deliverables/covers/cover-3x4.png"><img loading="lazy" src="deliverables/covers/cover-3x4.png" alt="3比4 竖版封面" width="1086" height="1448"></a><figcaption><span><b>3:4</b> · 1086 × 1448</span><a href="deliverables/covers/cover-3x4.png" download>下载 ↓</a></figcaption></figure>
+        <figure class="covercard"><a class="coverframe" href="deliverables/covers/cover-16x9.png"><img loading="lazy" src="deliverables/covers/cover-16x9.png" alt="16比9 横版封面" width="1680" height="945"></a><figcaption><span><b>16:9</b> · 1680 × 945</span><a href="deliverables/covers/cover-16x9.png" download>下载 ↓</a></figcaption></figure>
+        <figure class="covercard"><a class="coverframe" href="deliverables/covers/cover-9x16.png"><img loading="lazy" src="deliverables/covers/cover-9x16.png" alt="9比16 竖版封面" width="945" height="1680"></a><figcaption><span><b>9:16</b> · 945 × 1680</span><a href="deliverables/covers/cover-9x16.png" download>下载 ↓</a></figcaption></figure>
+        <figure class="covercard"><a class="coverframe" href="deliverables/covers/cover-1x1.png"><img loading="lazy" src="deliverables/covers/cover-1x1.png" alt="1比1 方形封面" width="1254" height="1254"></a><figcaption><span><b>1:1</b> · 1254 × 1254</span><a href="deliverables/covers/cover-1x1.png" download>下载 ↓</a></figcaption></figure>
+      </div>
+    </section>
+    <section aria-labelledby="making-title">
+      <div class="sectionhead"><h2 id="making-title">成片之外，把制作过程也打开。</h2><p>看作品，也看方法</p></div>
+      <div class="detailgrid">
+        <article class="detail"><h3>脚本与叙事</h3><p>从 Excel 痛点，到业务贯通、多维洞察和报表导出，完整故事板与讲解文案一并公开。</p><a href="https://github.com/jedliuai/jed-order-dashboard-promo/blob/main/docs/storyboard.md">阅读故事板 →</a></article>
+        <article class="detail"><h3>源码与声音</h3><p>动效时间轴、配乐合成、分段语音与混音流程，可以按自己的项目继续调整。</p><a href="https://github.com/jedliuai/jed-order-dashboard-promo">查看完整工程 →</a></article>
+        <article class="detail"><h3>提示词与验收</h3><p>五比例封面的设计记录，以及画面一致、声画卡点和音量检查，都有依据。</p><a href="https://github.com/jedliuai/jed-order-dashboard-promo/blob/main/docs/production.md">查看制作记录 →</a></article>
+      </div>
+    </section>
+    <div class="finalcta"><h2>宣传片只是入口。业务全局，才是主角。</h2><p>去看看这套真正把业务数据连起来的个人订单驾驶舱。</p><a class="button primary" href="https://github.com/jedliuai/trade-order-dashboard-demo">个人订单驾驶舱 · GitHub →</a> <a class="button outline" href="https://deskdemo.jedliuai.com/login">在线体验 →</a></div>
+  </main>
+  <footer><div class="wrap footerinner"><span>© 2026 项目作者：Jed杰德哥 · <a href="https://github.com/jedliuai">@jedliuai</a></span><span><a href="https://github.com/jedliuai/jed-order-dashboard-promo/blob/main/LICENSE">代码 MIT</a> · <a href="https://github.com/jedliuai/jed-order-dashboard-promo/blob/main/MEDIA_LICENSE.md">原创媒体 CC BY 4.0</a> · <a href="https://github.com/jedliuai/jed-order-dashboard-promo/blob/main/NOTICES.md">第三方来源</a></span></div></footer>
+  <script>
+    const film=document.getElementById('film');
+    const choices=document.querySelectorAll('[data-version]');
+    choices.forEach(button=>button.addEventListener('click',()=>{
+      if(button.getAttribute('aria-pressed')==='true')return;
+      const seconds=film.currentTime||0;
+      film.pause();
+      choices.forEach(item=>item.setAttribute('aria-pressed',String(item===button)));
+      const version=button.dataset.version;
+      const file=`deliverables/promo-60s-${version}.mp4`;
+      film.querySelector('source').src=file;
+      document.getElementById('video-download').href=file;
+      document.getElementById('version-label').textContent=version==='narrated'?'自然女声讲解 · 保留递进配乐与卡点音效':'纯音乐与音效 · 与讲解版相同画面';
+      film.load();
+      film.addEventListener('loadedmetadata',()=>{
+        film.currentTime=Math.min(seconds,Math.max(0,film.duration-.1));
+        for(const track of film.textTracks)track.mode=version==='narrated'?'hidden':'disabled';
+      },{once:true});
+    }));
+    const media=[film,...document.querySelectorAll('audio')];
+    media.forEach(current=>current.addEventListener('play',()=>media.forEach(other=>{if(other!==current)other.pause()})));
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+name: 制作 / 播放问题
+description: 报告可复现的安装、渲染、声音或展示问题
+title: "[Bug] "
+labels: [bug]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: 发生了什么
+      description: 说明原本期望与实际表现。
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 怎样复现
+      description: 提供操作步骤、系统与 Node / Python / FFmpeg 版本。请移除私人路径和密钥。
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 补充截图或日志

@@ -1,0 +1,17 @@
+name: 点子 / 改进
+description: 分享画面、叙事、声音或复现方面的建议
+title: "[Idea] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: 想解决什么问题
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 你的想法
+    validations:
+      required: true

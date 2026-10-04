@@ -1,0 +1,82 @@
+{
+  "dashboard-full": {
+    "width": 1920,
+    "height": 1080
+  },
+  "dashboard-metrics": {
+    "width": 1124,
+    "height": 550
+  },
+  "dashboard-priorities": {
+    "width": 1124,
+    "height": 423
+  },
+  "contract-card": {
+    "width": 630,
+    "height": 294
+  },
+  "order-dialog": {
+    "width": 1920,
+    "height": 1080
+  },
+  "order-summary": {
+    "width": 846,
+    "height": 119
+  },
+  "order-progress": {
+    "width": 846,
+    "height": 345
+  },
+  "order-flows": {
+    "width": 846,
+    "height": 205
+  },
+  "profit": {
+    "width": 1920,
+    "height": 1080
+  },
+  "customer-value": {
+    "width": 1500,
+    "height": 680
+  },
+  "customer-top": {
+    "width": 1500,
+    "height": 108
+  },
+  "customer-pareto": {
+    "width": 1500,
+    "height": 474
+  },
+  "product-top": {
+    "width": 1540,
+    "height": 108
+  },
+  "product-core": {
+    "width": 1540,
+    "height": 156
+  },
+  "product-pareto": {
+    "width": 1540,
+    "height": 484
+  },
+  "customer-balance": {
+    "width": 1280,
+    "height": 536
+  },
+  "balance-formula": {
+    "width": 1280,
+    "height": 81
+  },
+  "export-card": {
+    "width": 630,
+    "height": 208
+  },
+  "export-before": {
+    "width": 1920,
+    "height": 1080
+  },
+  "export-after": {
+    "width": 1920,
+    "height": 1080
+  }
+}

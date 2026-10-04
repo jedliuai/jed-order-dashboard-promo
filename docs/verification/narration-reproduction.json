@@ -1,0 +1,71 @@
+{
+  "tested_on": "2026-10-04",
+  "workflow": "saved voice clips + local CPU mixing; no model inference",
+  "versions": {
+    "python": "3.13.6",
+    "numpy": "2.2.1",
+    "scipy": "1.17.0",
+    "ffmpeg": "ffmpeg version 8.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers"
+  },
+  "voice_clip_count": 15,
+  "deliverables_overwritten": false,
+  "generated_music_assets": false,
+  "model_inference_executed": false,
+  "byte_identical_reproduction": true,
+  "outputs": [
+    {
+      "test_output": "output/reproduction/promo-60s-narrated.mp4",
+      "release_reference": "deliverables/promo-60s-narrated.mp4",
+      "sha256": "4F93DBF7E05C1F1EAA2BA75D7C43F88F937B0D049C3FCBE82ADFE830BE664229",
+      "reference_sha256": "4F93DBF7E05C1F1EAA2BA75D7C43F88F937B0D049C3FCBE82ADFE830BE664229",
+      "identical": true
+    },
+    {
+      "test_output": "output/reproduction/narration.wav",
+      "release_reference": "deliverables/narration.wav",
+      "sha256": "383120AE1B7BE3E94B4518B6C26F594563CC00054F64DAD877BDCCDB3CF33D1F",
+      "reference_sha256": "383120AE1B7BE3E94B4518B6C26F594563CC00054F64DAD877BDCCDB3CF33D1F",
+      "identical": true
+    },
+    {
+      "test_output": "output/reproduction/narration-mix.wav",
+      "release_reference": "deliverables/soundtrack-narrated.wav",
+      "sha256": "56DD342043CF6B95980C3C823925A903DF8A86AAE2DB9E0CA52C75FA3A882B28",
+      "reference_sha256": "56DD342043CF6B95980C3C823925A903DF8A86AAE2DB9E0CA52C75FA3A882B28",
+      "identical": true
+    }
+  ],
+  "verification": {
+    "music_only_file_sha256": "BE226EDDCDB0A6C90CDA41921BB9FA60C06A8B146FFCC98D4138B3860C7EB6C4",
+    "video_packet_hash_original": "SHA256=916d90d651ad9c53532162035ba9b303835cab7657882d7cbff6fc35c26737ca",
+    "video_packet_hash_narrated": "SHA256=916d90d651ad9c53532162035ba9b303835cab7657882d7cbff6fc35c26737ca",
+    "video_bytes_identical": true,
+    "full_decode_errors": 0,
+    "video_frames": 1800,
+    "video_duration": 60,
+    "container_duration": 60,
+    "aac_lufs": -16.01,
+    "aac_true_peak_db": -4.48,
+    "aac_lra": 2.6,
+    "click_voice_gaps": {
+      "priority-click": {
+        "frame": 618,
+        "seconds": 20.6,
+        "speech_free_window_ms": 150
+      },
+      "export-click": {
+        "frame": 1463,
+        "seconds": 48.766666666666666,
+        "speech_free_window_ms": 150
+      }
+    },
+    "final_voice_end": 58.19858333333333,
+    "final_aligned_clip_end": 58.26866666666667,
+    "alignment_metadata_used": true,
+    "max_voice_tempo": 1.1282051282051286,
+    "final_file_sha256": "4F93DBF7E05C1F1EAA2BA75D7C43F88F937B0D049C3FCBE82ADFE830BE664229"
+  },
+  "syntax_checked_python_files": 6,
+  "optional_tts_asr_entrypoints_checked": "help and missing model-root validation only",
+  "cross_environment_byte_identity_guaranteed": false
+}

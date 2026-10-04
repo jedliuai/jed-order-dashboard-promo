@@ -1,0 +1,6 @@
+# Core audio synthesis, offline mixing, and image/frame verification.
+# FFmpeg and FFprobe are separate command-line prerequisites.
+# Optional local TTS/ASR use the dependency environment of the model checkout.
+numpy>=1.26,<3
+scipy>=1.11,<2
+Pillow>=10,<13
