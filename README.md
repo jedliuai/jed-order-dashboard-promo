@@ -167,6 +167,8 @@ SHA256SUMS.txt          最终成片、声音与封面的校验值
 
 只收录最终交付和所需源码。模型权重、私有配置、登录信息、运行缓存与历史候选稿不随这份公开工程分发。
 
+2026-10-10 整理后，本地项目根目录也统一采用上述最终工程结构，可以直接执行 `git pull` / `git push`。旧版视频、重复工程、依赖和中间文件已从工作目录清理；需要编辑时重新运行 `npm ci` 即可恢复 Node 依赖。两版最终视频和五比例封面保留原始字节。
+
 ## 🤝 一起做更好的作品
 
 欢迎 Star、Fork，也欢迎分享你的改编。[提交问题](https://github.com/jedliuai/jed-order-dashboard-promo/issues) · [讨论制作](https://github.com/jedliuai/jed-order-dashboard-promo/discussions) · [贡献说明](CONTRIBUTING.md)

@@ -17,3 +17,9 @@ Thumbs.db
 *.pth
 *.onnx
 *.safetensors
+
+# Local requirements and historical notes stay on this computer.
+/要求.md
+/本地文件说明.txt
+/worklog/*
+!/worklog/2026-10-10-最终工程归一与本地清理.md
